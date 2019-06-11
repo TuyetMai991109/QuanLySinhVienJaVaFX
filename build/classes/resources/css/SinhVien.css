@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2019, 8:49:41 PM
+    Author     : ThayGiaoQuang
+*/
+
+.btn_them{
+    -fx-background-image: url("../images/them.png");
+        -fx-padding: 8 15 15 15;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+    -fx-background-size: auto;
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #D5DBB4 45%, #C3C9A5 50%);
+}
+.btn_them:hover{
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+}
+.btn_them:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
+
+
+
+
+.btn_xoa{
+    -fx-background-image: url("../images/xoa.png");
+    -fx-padding: 8 15 15 15;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+    -fx-background-size: auto;
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #D5DBB4 45%, #C3C9A5 50%);
+}
+.btn_xoa:hover{
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+}
+.btn_sua:pressed{
+    -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+
+
+.btn_themmoi{
+    -fx-background-image: url("../images/themmoi.png");
+    -fx-padding: 8 15 15 15;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+    -fx-background-size: auto;
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #D5DBB4 45%, #C3C9A5 50%);
+}
+.btn_themmoi:hover{
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+}
+.btn_themmoi:pressed{
+    -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+
+
+
+.btn_sua{
+    -fx-background-image: url("../images/sua.png");
+    -fx-padding: 8 15 15 15;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+    -fx-background-size: auto;
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #D5DBB4 45%, #C3C9A5 50%);
+}
+.btn_sua:hover{
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+}
+.btn_sua:pressed{
+    -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+
+
+.btn_luu{
+    -fx-background-image: url("../images/luu.png");
+    -fx-padding: 8 15 15 15;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+    -fx-background-size: auto;
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #D5DBB4 45%, #C3C9A5 50%);
+}
+.btn_luu:hover{
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+}
+.btn_luu:pressed{
+    -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+
+
+.btn_thoat{
+    -fx-background-image: url("../images/thoat.png");
+    -fx-padding: 8 15 15 15;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+    -fx-background-size: auto;
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #D5DBB4 45%, #C3C9A5 50%);
+}
+.btn_thoat:hover{
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+}
+.btn_thoat:pressed{
+    -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+}
+
+.btn_TimKiem{
+    -fx-background-image: url("../images/search.png");
+        -fx-padding: 8 15 15 15;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+    -fx-background-size: auto;
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="680.0" stylesheets="@../css/mainscreen.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainScreenController">
+   <children>
+      <VBox id="hinh" layoutX="193.0" layoutY="31.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="409.0" prefWidth="415.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="193.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="31.0" />
+      <MenuBar fx:id="MenuBar_Home" layoutY="1.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="30.0" prefWidth="610.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="1.0">
+        <menus>
+            <Menu fx:id="Menu_System" mnemonicParsing="false" text="Hệ thống">
+               <items>
+                  <MenuItem fx:id="Item_Exit" mnemonicParsing="false" onAction="#exit" text="Thoát" />
+               </items>
+            </Menu>
+            <Menu fx:id="Menu_Category" mnemonicParsing="false" text="Danh mục">
+               <items>
+                  <MenuItem fx:id="Item_Student" mnemonicParsing="false" onAction="#btn_managementStudent" text="Quản lý sinh viên" />
+                  <MenuItem fx:id="Item_faculty" mnemonicParsing="false" onAction="#btn_managerFaculty" text="Quản lý khoa" />
+                  <MenuItem fx:id="Item_Class" mnemonicParsing="false" onAction="#btn_managerClass" text="Quản lý lớp" />
+                  <MenuItem fx:id="Item_TrainingSystem" mnemonicParsing="false" onAction="#btn_managerTranning" text="Quản lý đào tạo" />
+                  <MenuItem fx:id="Item_Course" mnemonicParsing="false" onAction="#btn_manager_course" text="Quản lý khóa học" />
+                  <MenuItem mnemonicParsing="false" onAction="#btn_managerPoint" text="Quản lý điểm" />
+                  <MenuItem mnemonicParsing="false" onAction="#btn_managerSubject" text="Quản lý môn học" />
+               </items>
+            </Menu>
+            <Menu fx:id="Menu_Help" mnemonicParsing="false" text="Trợ giúp">
+               <items>
+                  <MenuItem fx:id="Item_About" mnemonicParsing="false" text="Thông tin" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <VBox fx:id="vbox_button" layoutX="-1.0" layoutY="30.0" maxHeight="1.7976931348623157E308" maxWidth="300.0" prefHeight="419.0" prefWidth="198.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="483.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <Button fx:id="btn_Student" alignment="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#btn_managementStudent" prefHeight="69.0" prefWidth="197.0" text="Quản lý sinh viên" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btn_Faculty" alignment="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#btn_managerFaculty" prefHeight="74.0" prefWidth="197.0" text="Quản lý khoa" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btn_Class" alignment="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#btn_managerClass" prefHeight="69.0" prefWidth="197.0" text="Quản lý lớp" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btn_TrainingSystem" alignment="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#btn_managerTranning" prefHeight="69.0" prefWidth="197.0" text="Quản lý đào tạo" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btn_point" alignment="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#btn_managerPoint" prefHeight="69.0" prefWidth="197.0" text="Quản lý điểm" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btn_Course" alignment="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#btn_manager_course" prefHeight="68.0" prefWidth="197.0" text="Quản lý khóa học" VBox.vgrow="ALWAYS" />
+            <Button fx:id="btn_Course1" alignment="CENTER" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#btn_managerSubject" prefHeight="68.0" prefWidth="197.0" text="Quản lý môn học" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
